@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>구지혜 포트폴리오</title>
+
+  <!-- 오픈 그래프 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="구지혜 포트폴리오" />
+  <meta property="og:title" content="구지혜 포트폴리오" />
+  <meta property="og:description" content="구지혜의 포트폴리오 홈페이지입니다." />
+  <meta property="og:image" content="./kujihye_seo.jpg" />
+  <meta property="og:url" content="https://kujihye.github.io/" />
+
+  <!-- 파비콘 -->
+  <link rel="icon" href="./favicon.png" />
+  <link rel="apple-touch-icon" href="./favicon.png"> <!-- Safari, iOS 지원 -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <!-- JS -->
+  <script defer src="./js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script> <!-- CONTACT 나타나는 효과 -->
+  <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script> <!-- 부드러운 스크롤 효과 -->
+  <script src="https://unpkg.com/split-type"></script> <!-- HOMTE 텍스트 효과 -->
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+      <a href="/" class="logo">
+        <img src="./images/logo.png" alt="구지혜 포트폴리오 로고">
+      </a>
+      <ul class="menu">
+        <li class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </li>
+        <li>
+          <a class="active" href="#home">HOME</a>
+        </li>
+        <li>
+          <a href="#aboutme">ABOUT ME</a>
+        </li>
+        <li>
+          <a href="#work">WORK</a>
+        </li>
+        <li>
+          <a href="#contact">CONTACT</a>
+        </li>
+      </ul>
+
+      <div class="m-menu">
+        <ul>
+          <li>
+            <a class="active" href="#home">HOME</a>
+          </li>
+          <li>
+            <a href="#aboutme">ABOUT ME</a>
+          </li>
+          <li>
+            <a href="#work">WORK</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="home">
+      <div class="inner">
+        <div class="home__txt">
+          <h1>PUBLISHER</h1>
+          <p>
+            더 나아가 프론트엔드 개발자를 꿈꾸는<br /> 
+            <span>구지혜</span>입니다.
+          </p>
+        </div>
+        <div class="scroll-down">
+          <img src="./images/home-icon.png" alt="마우스 아이콘">
+          <p>SCROLL DOWN</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="aboutme" class="aboutme bg--black">
+      <div class="inner">
+        <h2 class="title">ABOUT ME</h2>
+        <div class="content">
+          <div class="aboutme__left">
+            <div class="aboutme__img">
+              <img src="./images/aboutme-img.jpg" alt="구지혜 캐릭터">
+            </div>
+          </div>
+          <div class="aboutme__right">
+            <div class="aboutme__txt">
+              <h3>CAREER</h3>
+              <ul>
+                <li>
+                  <p class="date">2023. 11 - 2024. 05</p>
+                  <p>(주)디토나인 IX파트 사원 - 웹 퍼블리싱</p>
+                </li>
+                <li>
+                  <p class="date">2023. 06 - 2023. 08</p>
+                  <p>투판즈 프리랜서 - 웹 퍼블리싱</p>
+                </li>
+                <li>
+                  <p class="date">2022. 10 - 2022. 12</p>
+                  <p>윈스코어(주) SI사업부 사원 - 웹 개발</p>
+                </li>
+                <li>
+                  <p class="date">2018. 05 - 2022.01</p>
+                  <p>(주)이프론트 IT팀 대리 - 웹 디자인, 유지보수</p>
+                </li>
+              </ul>
+            </div>
+            <div class="aboutme__txt">
+              <h3>EDUCATION</h3>
+              <ul>
+                <li>
+                  <p class="date">2022. 03 - 2022. 09</p>
+                  <p>한국소프트웨어인재개발원(KOSMO) JAVA 개발자 양성과정 수료</p>
+                </li>
+                <li>
+                  <p class="date">2017. 08 - 2018. 02</p>
+                  <p>그린컴퓨터아트학원 스마트기기 UIUX디자인 (웹디자인, 웹퍼블리셔) 양성과정 수료</p>
+                </li>
+                <li>
+                  <p class="date">2016. 02</p>
+                  <p>동양미래대학교 인터넷정보과 졸업</p>
+                </li>
+              </ul>
+            </div>
+            <div class="aboutme__txt">
+              <h3>SKILL</h3>
+              <ul class="skill">
+                <li>
+                  <img src="./images/aboutme-logo01.png" alt="HTML5 로고">
+                </li>
+                <li>
+                  <img src="./images/aboutme-logo02.png" alt="CSS3 로고">
+                </li>
+                <li>
+                  <img src="./images/aboutme-logo03.png" alt="Sass(SCSS) 로고">
+                </li>
+                <li>
+                  <img src="./images/aboutme-logo04.png" alt="JavaScript 로고">
+                </li>
+                <li>
+                  <img src="./images/aboutme-logo05.png" alt="jQuery 로고">
+                </li>
+                <li>
+                  <img src="./images/aboutme-logo06.png" alt="Photoshop 로고">
+                </li>
+                <li>
+                  <img src="./images/aboutme-logo07.png" alt="Iilustrator 로고">
+                </li>
+                <li>
+                  <img src="./images/aboutme-logo08.png" alt="Figma 로고">
+                </li>
+                <li>
+                  <img src="./images/aboutme-logo09.png" alt="Git 로고">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="work">
+      <div class="inner">
+        <h2 class="title">WORK</h2>
+        <div class="content">
+          <div class="work__list">
+            <div class="work__img">
+              <a href="https://www.inno-n.com/" target="_blank"><img src="./images/work-img01.jpg" alt="이노엔 이미지"></a>
+            </div>
+            <ul class="work__txt">
+              <li>#이노엔</li>
+              <li>#적응형</li>
+              <li>#유지보수</li>
+            </ul>
+          </div>
+          <div class="work__list">
+            <div class="work__img">
+              <a href="https://www.idlookmall.com/" target="_blank"><img src="./images/work-img02.jpg" alt="아이디룩몰 이미지"></a>
+            </div>
+            <ul class="work__txt">
+              <li>#아이디룩몰</li>
+              <li>#적응형</li>
+              <li>#기획전</li>
+              <li>#애니메이션</li>
+            </ul>
+          </div>
+          <div class="work__list">
+            <div class="work__img">
+              <a href="https://www.dtto9.com/" target="_blank"><img src="./images/work-img03.jpg" alt="디토나인 이미지"></a>
+            </div>
+            <ul class="work__txt">
+              <li>#디토나인</li>
+              <li>#반응형</li>
+              <li>#리뉴얼</li>
+              <li>#SCSS</li>
+            </ul>
+          </div>
+          <div class="work__list">
+            <div class="work__img">
+              <a href="https://www.woowayouths.com/" target="_blank"><img src="./images/work-img04.jpg" alt="우아한청년들 이미지"></a>
+            </div>
+            <ul class="work__txt">
+              <li>#우아한청년들</li>
+              <li>#반응형</li>
+              <li>#유지보수</li>
+              <li>#Gulp</li>
+            </ul>
+          </div>
+          <div class="work__list">
+            <div class="work__img">
+              <a href="https://www.noon.co.kr/" target="_blank"><img src="./images/work-img05.jpg" alt="누네안과병원 이미지"></a>
+            </div>
+            <ul class="work__txt">
+              <li>#누네안과병원</li>
+              <li>#적응형</li>
+              <li>#랜딩페이지</li>
+              <li>#PHP</li>
+            </ul>
+          </div>
+          <div class="work__list">
+            <div class="work__img">
+              <a href="https://www.inknfeather.com/" target="_blank"><img src="./images/work-img06.jpg" alt="잉크앤페더 이미지"></a>
+            </div>
+            <ul class="work__txt">
+              <li>#잉크앤페더</li>
+              <li>#반응형</li>
+              <li>#리뉴얼</li>
+              <li>#애니메이션</li>
+            </ul>
+          </div>
+          <div class="work__list">
+            <div class="work__img">
+              <a href="https://profound-caramel-70bdef.netlify.app/" target="_blank"><img src="./images/work-img07.jpg" alt="아이패드 이미지"></a>
+            </div>
+            <ul class="work__txt">
+              <li>#아이패드</li>
+              <li>#클론코딩</li>
+              <li>#반응형</li>
+            </ul>
+          </div>
+          <div class="work__list">
+            <div class="work__img">
+              <a href="https://gentle-meerkat-584af5.netlify.app/" target="_blank"><img src="./images/work-img08.jpg" alt="스타벅스 이미지"></a>
+            </div>
+            <ul class="work__txt">
+              <li>#스타벅스</li>
+              <li>#클론코딩</li>
+              <li>#PC형</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact bg--black">
+      <div class="inner">
+        <div class="contact__txt">
+          <p>
+            <span>성실</span>하고 <span>꼼꼼</span>한 퍼블리셔가 필요하시면<br>
+            언제든 연락 주세요!
+          </p>
+          <a href="mailto:gji135@naver.com">gji135@naver.com</a>
+        </div>
+        <ul class="contact__list">
+          <li>
+            <a href="https://github.com/KuJiHye" target="_blank"><img src="./images/contact-logo01.png" alt="GitHub 로고"></a>
+          </li>
+          <li>
+            <a href="https://kujihye.notion.site/25e8972cd01380e19b74fe804cfad353?source=copy_link" target="_blank"><img src="./images/contact-logo02.png" alt="Notion 로고"></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="inner">
+      <p>
+        해당 홈페이지는 포트폴리오 목적으로 제작되었습니다.<br>
+        &copy; <span class="year"></span> KUJIHYE. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- TOP BUTTON -->
+  <div class="top-btn">↑</div>
+</body>
+</html>
